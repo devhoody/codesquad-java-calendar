@@ -23,7 +23,7 @@ public class Calendar {
 		// 원하는 반복 횟수를 입력하고, 원하는 월수를 입력하여 해당 월의 마지막 일수 출력하기.
 		Scanner scn = new Scanner(System.in);
 		Calendar cal = new Calendar();
-		String prompt = "cal>";
+		String prompt = "cal>>";
 
 		System.out.println("반복횟수를 입력하세요.");
 		int loopnum = scn.nextInt();
